@@ -1,0 +1,54 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter a number:");
+		int userInput = input.nextInt();
+		double sqrt = Math.sqrt(userInput);
+		int remainder;
+		
+		
+		
+		System.out.println("Test to make sure sqrt are correct" + sqrt);
+		System.out.println("Test to make usre userinput is correct" + userInput);
+		int x = 2;
+		while(x < sqrt)
+		do{
+			remainder = userInput % x;
+			if (remainder == 0){
+				System.out.println(userInput + " is not a prime number!");
+				x++;
+			}
+			
+			System.out.println("Would you like to display all prime numbers up to an integer?");
+			System.out.println("Type 1 for yes or any other integer to exit");
+			int continuation = input.nextInt();
+			int userMax;
+			
+			if (continuation == 1){
+				System.out.println("Please choose an integer to display prime numbers up to");
+				userMax = input.nextInt();
+				int y; // this is to control max
+			while(y< userMax){
+				
+			}
+			do{
+				//you left off here. this is the do while to run iteration of primenumber
+				y++
+			}
+			}
+			
+		}
+	
+	//if remainder is 0 set to output that the number is a prime	
+	}
+}
